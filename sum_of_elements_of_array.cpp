@@ -9,9 +9,7 @@ int main(){
     for (int i=0;i<size;i++){
         cout<<"enter number: ";
         cin>>num[i];
-    }
-    for (int j=0;j<size;++j){
-        sum+=num[j];
+        sum+=num[i];
     }
     cout<<"sum of elements of given array= "<<sum;
 
